@@ -3,7 +3,7 @@ import uuid
 from django.contrib.auth.models import AbstractUser, BaseUserManager
 from django.contrib.auth.management.commands import createsuperuser
 from django.db import models
-from django.contrib.postgres.fields import JSONField
+from django.db.models import JSONField
 from django.utils.translation import ugettext_lazy as _
 
 
