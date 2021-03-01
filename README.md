@@ -21,7 +21,7 @@ pip install dist/accounts-manager-0.0.1.tar.gz
 ```python
 INSTALLED_APPS = [
     ...
-    'accounts',
+    'account-owner',
 ]
 ```
 
