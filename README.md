@@ -21,14 +21,14 @@ pip install dist/accounts-manager-0.0.1.tar.gz
 ```python
 INSTALLED_APPS = [
     ...
-    'account-owner',
+    'account_owner',
 ]
 ```
 
 5. Also include the AUTH_USER_MODEL variable indicating the custom user model setting.py
 
 ```python
-AUTH_USER_MODEL = 'accounts.User'
+AUTH_USER_MODEL = 'account_owner.User'
 ```
 
 6. Include the accounts URLconf in your project urls.py:
